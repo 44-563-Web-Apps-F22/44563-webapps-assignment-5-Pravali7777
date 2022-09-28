@@ -13,6 +13,27 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#InsectNavbarContent" aria-controls="InsectNavbarContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="InsectNavbarContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="insects.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+</nav>
   <h1>insects by pravallika kakanoori</h1>
   <div class="container">
     <div class="row">
@@ -50,5 +71,116 @@
      </div>
  </div>
  </div>
+ <table class="table"></table>
+  <div class="container-fluid">
+    <table class="table table-bordered table-hover">
+    <br>
+    <br>
+    <caption style="color: blue;">Table contain insect name, city and river</caption>
+    <thead>
+        <tr class="table-primary">
+            <th>Letter</th>
+        <th>Insects</th>
+        <th>City</th>
+        <th>River</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr class="table-warning" >
+            <td style="background-color: rgb(211, 255, 192);">K</td>
+        <td style="background-color: rgb(216, 255, 192);" >killer ant</td>
+        <td style="background-color: rgb(211, 255, 192);">Kansas</td>
+        <td style="background-color: rgb(197, 255, 192);">Kiamichi River</td>
+      </tr>      
+      <tr class="danger">
+        <td style="background-color: rgb(255, 192, 192);">A</td>
+        <td style="background-color: rgb(255, 192, 192);">Ant</td>
+        <td style="background-color: rgb(255, 192, 192);">Aurora</td>
+        <td style="background-color: rgb(255, 192, 192);">Agawam River</td>
+      </tr>
+      <tr class="table-warning">
+        <td style="background-color:rgb(255, 192, 229);">K</td>
+        <td style="background-color: rgb(255, 192, 229);">Katydid</td>
+        <td style="background-color: rgb(255, 192, 229);">Knoxville</td>
+        <td style="background-color: rgb(255, 192, 229);">Kakagon River</td>
+      </tr>
+      <tr class="danger">
+        <td style="background-color: rgb(219, 192, 255);">A</td>
+        <td style="background-color: rgb(219, 192, 255);">Alderflies</td>
+        <td style="background-color: rgb(219, 192, 255);">Atlanta</td>
+        <td style="background-color: rgb(219, 192, 255);">Ahnapee River</td>
+      </tr>
+      <tr class="table-warning">
+        <td style="background-color: rgb(192, 255, 255);">N</td>
+        <td style="background-color: rgb(192, 255, 255);">Nymph</td>
+        <td style="background-color:rgb(192, 255, 255);">North Las Vegas</td>
+        <td style="background-color: rgb(192, 255, 255);">Naches River </td>
+      </tr>
+      <tr class="danger">
+        <td style="background-color: rgb(255, 227, 192);">O</td>
+        <td style="background-color: rgb(255, 227, 192);">Odonata</td>
+        <td style="background-color: rgb(255, 227, 192);">Omaha</td>
+        <td style="background-color: rgb(255, 227, 192);">Obey River</td>
+      </tr>
+    </tbody>
+  </table>
+  <label>BUTTON</label>
+  <div class="btn">
+  <button type="button" class="btn btn-outline-info">K</button>
+  <button type="button" class="btn btn-outline-info">A</button>
+  <button type="button" class="btn btn-outline-info">K</button>
+  <button type="button" class="btn btn-outline-info">A</button>
+  <button type="button" class="btn btn-outline-info">N</button>
+  <button type="button" class="btn btn-outline-info">O</button>
+  </div>
+  <br>
+  <label>BUTTON GROUPS :</label>
+  <div class="container btn-toolbar">
+    <div class="btn-group" role="group" aria-label="Images">
+      <button type="button" class="btn btn-success">K</button>
+      <button type="button" class="btn btn-success">A</button>
+      <button type="button" class="btn btn-success">K</button>
+    </div>  
+    <div class="btn-group" role="group" aria-label="warning">
+      <button type="button" class="btn btn-warning">A</button>
+      <button type="button" class="btn btn-warning">N</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="danger">
+      <button type="button" class="btn btn-danger">O</button>
+    </div>
+  </div>
+    <br>
+    <div class="container">
+      <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" type="button">
+              Menu
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="basic.html">Basic</a>
+            <a class="dropdown-item" href="advanced.html">Advanced</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+  <form action="">
+      <div class="form-group">
+          <label for="InsectEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="InsectEmail" 
+          aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Your email is confidential to us, and it will never be shared.</div>
+      </div>
+      <div class="form-group">
+          <label for="InsectInput" class="form-label">Insect</label>
+          <input type="text" class="form-control" id="InsectInput" 
+          placeholder="Enter Your Insect">
+      </div>
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="InsectCheck">
+          <label class="form-check-label" for="InsectCheck">Sign up for newsletter?</label>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+</div>
+<br>
 </body>
 </html>
